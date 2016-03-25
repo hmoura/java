@@ -91,9 +91,9 @@ public class TelaVoto extends javax.swing.JFrame {
         String texto;
         if (idade < 16) {
             texto = "Não pode votar";
-        }else if (idade >= 16 && idade <= 18 || idade > 70){
+        } else if (idade >= 16 && idade <= 18 || idade > 70) {
             texto = "O voto é opcional";
-        }else {
+        } else {
             texto = "O voto é obrigatório";
         }
         lblRseultado.setText(texto);
